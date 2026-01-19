@@ -17,9 +17,30 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+        // User::factory()->create([
+        //     'name' => 'NCCCL Admin',
+        //     'email' => 'admin@gmail.com',
+        //     'mobile' => '01700000000',
+        // ]);
+
+        if (!User::where('email', 'admin@gmail.com')->exists()) {
+            User::factory()->create([
+                'name' => 'NCCCL Admin',
+                'email' => 'admin@gmail.com',
+                'mobile' => '01700000000',
+            ]);
+        }
+        // Call other seeders here
+        $this->call([
+            \Database\Seeders\BloodGroupSeeder::class,
+            \Database\Seeders\GenderSeeder::class,
+            \Database\Seeders\MaritalStatusSeeder::class,
+            \Database\Seeders\DivisionSeeder::class,
+            \Database\Seeders\DistrictSeeder::class,
+            \Database\Seeders\UpazilaSeeder::class,
+            // Add other seeders as needed
         ]);
+        echo "Database seeding completed!\n";
+     
     }
 }
