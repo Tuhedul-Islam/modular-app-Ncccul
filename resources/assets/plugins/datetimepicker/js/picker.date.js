@@ -7,7 +7,7 @@
 
     // AMD.
     if ( typeof define == 'function' && define.amd )
-        define( ['./picker.js', 'jquery'], factory )
+        define( ['./picker', 'jquery'], factory )
 
     // Node.js/browserify.
     else if ( typeof exports == 'object' )
@@ -396,7 +396,7 @@ DatePicker.prototype.normalize = function( value/*, options*/ ) {
 DatePicker.prototype.measure = function( type, value/*, options*/ ) {
 
     var calendar = this
-
+    
     // If it's an integer, get a date relative to today.
     if ( _.isInteger( value ) ) {
         value = calendar.now( type, value, { rel: value } )

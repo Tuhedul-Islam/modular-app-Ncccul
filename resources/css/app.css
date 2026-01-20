@@ -1,4 +1,3 @@
-
 /*Plugins*/
 @import '../assets/plugins/simplebar/css/simplebar.css';
 @import '../assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css';
@@ -9,37 +8,19 @@
 /*Bootstrap CSS                                                                                                    */
 @import '../assets/css/bootstrap.min.css';
 @import '../assets/css/bootstrap-extended.css';
-@import '../assets/css/bootstrap-icons.css';
 @import '../assets/css/style.css';
 @import '../assets/css/icons.css';
-
-/*Select2*/
-@import "../assets/plugins/select2/css/select2.min.css";
-@import "../assets/plugins/select2/css/select2-bootstrap4.css";
-
-/*Datepicker css*/
-@import "../assets/plugins/datetimepicker/css/classic.css";
-@import "../assets/plugins/datetimepicker/css/classic.time.css";
-@import "../assets/plugins/datetimepicker/css/classic.date.css";
-@import "../assets/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.min.css";
+@import '../assets/css/google-fonts.css';
+@import '../assets/css/bootstrap-icons.css';
 
 /*Loader*/
 @import "../assets/css/pace.min.css";
 
-/*Theme Styles*/
-@import "../assets/css/dark-theme.css";
-@import "../assets/css/light-theme.css";
-@import "../assets/css/semi-dark.css";
-@import "../assets/css/header-colors.css";
 
-/*Notifications*/
-@import "../assets/plugins/notifications/css/lobibox.css";
 
-/*Toastr*/
-/*@import "../assets/plugins/toastr/css/toastr.min.css";*/
 
-/*SweetAlert2*/
-/*@import "../assets/plugins/sweetalert2/css/sweetalert2.min.css";*/
+
+
 
 
 

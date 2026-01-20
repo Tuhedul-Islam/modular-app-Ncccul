@@ -21,10 +21,3 @@ Route::controller(DashboardController::class)->group(function ($public) {
         $protected->get('/dashboard', 'index')->name('admin.dashboard');
     });
 });
-
-
-/***
- * Routes
- * ===================
- */
-//Routes...

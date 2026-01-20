@@ -1,0 +1,9 @@
+/*Bootstrap CSS                                                                                                    */
+@import '../assets/css/bootstrap.min.css';
+@import '../assets/css/bootstrap-extended.css';
+@import '../assets/css/bootstrap-icons.css';
+@import '../assets/css/style.css';
+@import '../assets/css/icons.css';
+
+/*Notifications*/
+@import "../assets/plugins/notifications/css/lobibox.css";

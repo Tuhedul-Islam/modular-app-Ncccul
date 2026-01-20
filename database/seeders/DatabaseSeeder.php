@@ -28,6 +28,7 @@ class DatabaseSeeder extends Seeder
                 'name' => 'NCCCL Admin',
                 'email' => 'admin@gmail.com',
                 'mobile' => '01700000000',
+                'password' => '12345678',
             ]);
         }
         // Call other seeders here
@@ -41,6 +42,6 @@ class DatabaseSeeder extends Seeder
             // Add other seeders as needed
         ]);
         echo "Database seeding completed!\n";
-     
+
     }
 }

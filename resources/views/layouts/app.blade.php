@@ -9,7 +9,7 @@
     <link rel="icon" href="{{ asset('assets/images/favicon-32x32.png') }}" type="image/x-icon">
 
     @vite([
-        'resources/css/app.css',
+        '../../resources/css/app-frontend.css',
     ])
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -35,7 +35,7 @@
     </div>
 
     @vite([
-        'resources/js/app.js',
+        '../../resources/js/app-frontend.js',
     ])
 
     @foreach (['success', 'error', 'warning', 'info'] as $type)

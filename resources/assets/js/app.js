@@ -75,7 +75,7 @@ $(function() {
 	})
 
 
-	// switcher 
+	// switcher
 
 	$("#LightTheme").on("click", function() {
 		$("html").attr("class", "light-theme")
@@ -119,9 +119,3 @@ $(function() {
 
 
 });
-
-// document.querySelectorAll('.img-box .close-btn').forEach(btn => {
-//     btn.addEventListener('click', function() {
-//       this.parentElement.style.display = 'none';
-//     });
-//   });

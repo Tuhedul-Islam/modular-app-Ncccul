@@ -17,7 +17,7 @@
                 <div class="parent-icon"><i class="bi bi-house-door"></i>
                 </div>
                 <div class="menu-title">Dashboard</div>
-              </a>              
+              </a>
             </li>
             <li>
               <a href="javascript:;" class="has-arrow">
@@ -192,7 +192,7 @@
                   <li><a href="#"><i class="bi bi-arrow-right-short"></i>Material Receipt Summary</a></li>
                   <li><a href="#"><i class="bi bi-arrow-right-short"></i>Invoice Vendor Summary</a></li>
                   <li><a href="#"><i class="bi bi-arrow-right-short"></i>Sales Order Summary</a></li>
-                  <li><a href="#"><i class="bi bi-arrow-right-short"></i>Sales Collection Report</a></li>             
+                  <li><a href="#"><i class="bi bi-arrow-right-short"></i>Sales Collection Report</a></li>
                 </ul>
 
              </li>
@@ -230,7 +230,7 @@
                   <li><a href="#"><i class="bi bi-arrow-right-short"></i>User Login Status</a></li>
                   <li><a href="#"><i class="bi bi-arrow-right-short"></i>Chart of Account</a></li>
                   <li><a href="#"><i class="bi bi-arrow-right-short"></i>Business Partner Information</a></li>
-                  <li><a href="#"><i class="bi bi-arrow-right-short"></i>Product List With Sales Price</a></li>            
+                  <li><a href="#"><i class="bi bi-arrow-right-short"></i>Product List With Sales Price</a></li>
                 </ul>
 
 
@@ -240,7 +240,7 @@
                   <div class="parent-icon"><i class="bi bi-grid"></i>
                   </div>
                   <div class="menu-title">Repayment (Transfer) Management</div>
-                </a>  
+                </a>
              </li>
               <li>
                 <a href="javascript:;" class="has-arrow">
